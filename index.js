@@ -16,7 +16,7 @@ if (notesFromLocalStorage) {
 addBtn.addEventListener("click", function () {
     /* alert("add btn clicked!") */
     if(noteEl.value == "") {
-        alert("Enter date to Save Note!")
+        alert("Enter data to Save Note!")
         return
     }
     const note = JSON.stringify(noteEl.value)
